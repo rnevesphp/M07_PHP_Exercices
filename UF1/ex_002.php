@@ -14,8 +14,10 @@
    $numModulos = array("MO2-BD","MO3-POO","MO5-ED","MO6-DC","MO7-DS","MO8-DA","MO9-DI","M12-PS");
 
    // creamos una variable que indica el modulo favorito 
+   // para elegir el modulo deseado debemos elegir su indice de posicion en el array
+   // teniendo en cuenta de que empieza en 0 el array la posicion 2 dl array tendra como indice el numero 1
    $modFav = $numModulos[1];
-
+   
    echo("<h2>PATRÓN DE LOS ALUMNOS LES SALINES</h2>"); 
    echo("Nombre: " . $nombre."<br>"); 
    echo("Apellidos: ".$primerAp." ".$segundoAp . "<br>");
@@ -26,6 +28,8 @@
    echo("Situacion laboral: ".$actTrabajando."<br>"); 
    echo("Estatura: ".$altura."<br>");
    echo("Ciudad ". $localidadPueblo."<br>");
+
+   // Imprimimos la variable en que almacena nuestro modulo favorito
    echo("Este es mi modulo favorito: ". $modFav);
 
 ?>
