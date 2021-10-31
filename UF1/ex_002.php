@@ -31,5 +31,4 @@
 
    // Imprimimos la variable en que almacena nuestro modulo favorito
    echo("Este es mi modulo favorito: ". $modFav);
-
 ?>
