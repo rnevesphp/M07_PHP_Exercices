@@ -12,21 +12,21 @@
    $telefonoAlumno = 665859515; 
    // La variable `correoAlumno` alamcena el correo del alumno como valor 
    $correoAlumno = "nevesromeu21@gmail.com"; 
-   // La variable `` almacena si el alumno trabaja o no 
-   $actTrabajando = bool ; 
-   // La variable ``
+   // La variable `actTrabajando` almacena si el alumno trabaja o no 
+   $actTrabajando = "No" ; 
+   // La variable `altura` almacena la altura de cada alumno
    $altura = 1.84; 
-   // La variable ``
+   // La variable `localidadPueblo` alamcena el pueblo/ciudad en el que vive el alumno
    $localidadPueblo = "St. Boi de Llobregat"; 
 
-   echo("<p>Me llamo " . $nombre); 
-   echo($primerAp); 
-   echo($segundoAp); 
-   echo($ageAlumno); 
-   echo($fechaNac); 
-   echo($telefonoAlumno); 
-   echo($correoAlumno); 
-   echo($actTrabajando); 
-   echo($altura);
-   echo($localidadPueblo);
+   echo("<h2>PATRÓN DE LOS ALUMNOS LES SALINES</h2>"); 
+   echo("Nombre: " . $nombre."<br>"); 
+   echo("Appelidos: ".$primerAp." ".$segundoAp . "<br>");
+   echo("Edad: ". $ageAlumno. "<br>"); 
+   echo("Fecha de nacimiento: ".$fechaNac. "<br>"); 
+   echo("Nº de Telefono: ". $telefonoAlumno."<br>"); 
+   echo("Mi correo: ".$correoAlumno."<br>"); 
+   echo("Situacion laboral: ".$actTrabajando."<br>"); 
+   echo("Estatura: ".$altura."<br>");
+   echo("Ciudad ". $localidadPueblo);
 ?>
