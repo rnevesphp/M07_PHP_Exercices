@@ -21,7 +21,7 @@
 
    echo("<h2>PATRÓN DE LOS ALUMNOS LES SALINES</h2>"); 
    echo("Nombre: " . $nombre."<br>"); 
-   echo("Appelidos: ".$primerAp." ".$segundoAp . "<br>");
+   echo("Apellidos: ".$primerAp." ".$segundoAp . "<br>");
    echo("Edad: ". $ageAlumno. "<br>"); 
    echo("Fecha de nacimiento: ".$fechaNac. "<br>"); 
    echo("Nº de Telefono: ". $telefonoAlumno."<br>"); 
