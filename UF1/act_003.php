@@ -32,10 +32,11 @@
    $factorial = 1; 
    $numero = 7; 
 
-   for ($i = 1; $i <= $numero; $i++){ 
+   // Hacemos un bucle for que mientras la variable $i sea menor que el $numero se incrementará un numero más una vez tengamos el valor hacemos los debidos calculos
+   for ($i = 1; $i <= $numero; $i--){ 
      $factorial = $factorial * $i; 
    } 
-   echo($factorial) ; 
+   echo("El factorial del numero ".$numero." es: ".$factorial) ; // Imprimos el valor del factorial del numero introducido 
 
 
 ?> 
