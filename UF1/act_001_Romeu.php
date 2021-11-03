@@ -26,7 +26,7 @@
    echo("Fecha de nacimiento: ".$fechaNac. "<br>"); 
    echo("Nº de Telefono: ". $telefonoAlumno."<br>"); 
    echo("Mi correo: ".$correoAlumno."<br>"); 
-   echo("Situacion laboral: ".$actTrabajando."<br>"); 
+   echo("Trabaja actualmente: ".$actTrabajando."<br>"); 
    echo("Estatura: ".$altura."<br>");
    echo("Ciudad ". $localidadPueblo);
 ?>

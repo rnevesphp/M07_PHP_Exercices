@@ -6,7 +6,7 @@
    // calcularemos el area y el perimetro de un circulo 
    $perCirculo = 2*3.14*$radioIntro; 
    $areaCirculo = 3.14*$radioIntro**2; 
-   echo("<p>Este es el area del Circulo: ".$areaCirculo."</p><p>Este es el perimetro: ".$perCirculo."</p><br>");
+   echo("<p>Este es el area del Circulo: ".$areaCirculo."cm</p><p>Este es el perimetro: ".$perCirculo."cm</p><br>");
    /////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
    // Ejercicio 3B - Area y perimetro del cuadrado// 
@@ -14,7 +14,7 @@
    $ladoCuadrado = 12; // le damos un valor al lado de un cuadrado 
    $perCuadrado = $ladoCuadrado * 4; // el valor del perimetro de un cuadrado se obtiene sumando todos sus lados
    $areaCuadrado = $ladoCuadrado * $ladoCuadrado; //El valor del area se obtiene multiplicando lado por lado
-   echo("<p>Este es el area del cuadrado: ".$areaCuadrado."</p><p>Este es el perimetro: ".$perCuadrado."</p><br>");
+   echo("<p>Este es el area del cuadrado: ".$areaCuadrado."cm</p><p>Este es el perimetro: ".$perCuadrado."cm</p><br>");
    /////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
    // Ejercicio 3C - Modulo de un numero (restante)// 
@@ -23,7 +23,7 @@
    $numeroIntro02 = 5; // le damos un valor al segundo numero; 
 
    $calMod = $numeroIntro01 % $numeroIntro02; // hacemos el calculo correspondiente 
-   echo("<p>Este es el resto del calculo: ".$calMod."</p><br>");
+   echo("<p>Este es el modulo del calculo es: ".$calMod."</p><br>");
    /////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
    // Ejercicio 3D - Factorial  // 
@@ -46,5 +46,4 @@
     }
     // Imprimos el valor del factorial del numero introducido
     echo("El factorial del numero ".$numero." es: ".CalFactorial($numero)) ; 
-    
 ?> 
