@@ -27,16 +27,16 @@
    /////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
    // Ejercicio 3D - Factorial  // 
-   echo("<h3>Factorial de un numero</h3> "); 
-   
-   $factorial = 1; 
-   $numero = 7; 
+    echo("<h3>Factorial de un numero</h3> "); 
+    $numero = 7;  
+    function CalFactorial($numero){
+        $total = 1; 
+        for($i = $numero; $i >= 1; $i--){
+          $total = $total*$i;
+          echo("Numero decreciente: ".$i."<br>"); 
+        }
+      return $total;
+    }
 
-   // Hacemos un bucle for que mientras la variable $i sea menor que el $numero se incrementará un numero más una vez tengamos el valor hacemos los debidos calculos
-   for ($i = 1; $i <= $numero; $i--){ 
-     $factorial = $factorial * $i; 
-   } 
-   echo("El factorial del numero ".$numero." es: ".$factorial) ; // Imprimos el valor del factorial del numero introducido 
-
-
+    echo("El factorial del numero ".$numero." es: ".CalFactorial($numero)) ; // Imprimos el valor del factorial del numero introducido
 ?> 
