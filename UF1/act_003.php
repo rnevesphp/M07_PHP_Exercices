@@ -27,7 +27,7 @@
    /////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
    // Ejercicio 3D - Factorial  // 
-   echo("<h3>Modulo de dos numeros</h3> "); 
+   echo("<h3>Factorial de un numero</h3> "); 
    
    $factorial = 1; 
    $numero = 7; 
