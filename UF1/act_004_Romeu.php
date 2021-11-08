@@ -59,6 +59,7 @@
    );
 
    // Hacemos un var_dump de cada variable que almacena cada array
+   echo("<h2>var_dump de cada Array</h2>");
    var_dump($listaDeProductos);echo("<br>"); 
    var_dump($gastosEnvioProductos);echo("<br>"); 
    var_dump($precioProductos);echo("<br>"); 
