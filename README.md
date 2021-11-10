@@ -23,4 +23,4 @@ In my case I used the next path: <br>
 Once finished the connection you can programm with PHP language and see the results in your browser like this exercices: <br> 
 ![Results_of_exercices](https://user-images.githubusercontent.com/51343870/140004996-5a3f8912-a904-4775-b325-e9b1ee3da0a6.png)
 
-<img height="60" width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" />
+
