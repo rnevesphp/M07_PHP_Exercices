@@ -9,12 +9,9 @@
   */
   
   echo strftime("Hoy es %A y son las %H:%M:%S es %d de %B de %Y<br>");
-  // el metodo strftime() formatea una fecha/hora local según 
-  // una configuración local
+  // el metodo strftime() formatea una fecha/hora local según una configuración local
+  // %Y -> Representa los años escritos con 4 digitos ejemplo 2021 no 21
+  // %B -> Representa los meses con su nombre completos 
+  // %d -> Representa los días del mes con dos digitos
   
-  /*
-  %Y -> Representa los años escritos con 4 digitos ejemplo 2021 no 21
-  %B -> Representa los meses con su nombre completos 
-  %d -> Representa los días del mes con dos digitos
-  */
 ?> 
