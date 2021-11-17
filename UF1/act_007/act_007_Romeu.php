@@ -14,8 +14,8 @@
    } else if ($operador == "dividir") { 
       $operacion = $num1 / $num2 ; 
    } else if ($operador == "porc") {
-      $operacion = $num2 * 100 / $num1; 
+      $operacion1 = $num1 * $num2; 
+      $operacion = $operacion1 / 100; 
    }
-   echo("Resultado: " . $operacion);
-   
+   echo("<h2>Resultado: </h2>" . $operacion);
 ?>

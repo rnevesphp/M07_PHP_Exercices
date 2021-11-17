@@ -7,7 +7,6 @@
   %M -> Representación de dos dígitos de los minutos
   %S -> Representa los segundos 
   */
-  
   echo strftime("Hoy es %A y son las %H:%M:%S es %d de %B de %Y");
   // el metodo strftime() formatea una fecha/hora local según una configuración local
   // %Y -> Representa los años escritos con 4 digitos ejemplo 2021 no 21
