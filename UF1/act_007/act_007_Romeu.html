@@ -5,28 +5,59 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="main.css">
    <title>Calculadora PHP</title>
 </head>
 
 <body>
-   <form action="act_007_Romeu.php" method="get" class="container">
-      <label for="numero1">Numero 1 o valor del Porcentaje</label>
-      <input id="numero1" name="numero1" type="numeric">
-      <br>
-      <br>
-      <label for="numero2">Numero 2 o valor para calcular porcentaje</label>
-      <input id="numero2" name="numero2" type="numeric">
-      <br>
-      <br>
-      <select name="operaciones" id="op">
-         <option value="sumar">Sumar</option>
-         <option value="restar">Restar</option>
-         <option value="multiplicar">Multiplicar</option>
-         <option value="dividir">Dividir</option>
-         <option value="porc">Porcentaje</option>
-      </select>
-      <button type="submit">Calcular</button>
-   </form>
+   <div class="container">
+      <h1>Introducir los valores</h1><br>
+      <div class="cristal">
+         <form action="act_007_Romeu.php" method="post" name="calc">
+            <input type="text" placeholder="Insertar un numero" name="campo1">
+            <br>
+            <select name="operacion1">
+               <option value="+">+</option>
+               <option value="-">-</option>
+               <option value="*">*</option>
+               <option value="/">/</option>
+               <option value="%">%</option>
+            </select>
+            <br>
+            <input type="text" placeholder="Insertar un numero" name="campo2">
+            <br>
+            <select name="operacion2">
+               <option value="+">+</option>
+               <option value="-">-</option>
+               <option value="*">*</option>
+               <option value="/">/</option>
+            </select>
+            <br>
+            <input type="text" placeholder="Insertar un numero" name="campo3">
+            <br>
+            <select name="operacion3">
+               <option value="+">+</option>
+               <option value="-">-</option>
+               <option value="*">*</option>
+               <option value="/">/</option>
+            </select>
+            <br>
+            <input type="text" placeholder="Insertar un numero" name="campo4">
+            <br>
+            <select name="operacion4">
+               <option value="+">+</option>
+               <option value="-">-</option>
+               <option value="*">*</option>
+               <option value="/">/</option>
+            </select>
+            <br>
+            <input type="text" placeholder="Insertar un numero" name="campo5">
+            <br>
+            <button type="submit">Calcular</button>
+         </form>
+      </div>
+   </div>
+
 </body>
 
 </html>

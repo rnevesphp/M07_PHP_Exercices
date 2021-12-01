@@ -1,6 +1,6 @@
 <?php
   //Establecer la información local en castellano 
-  setlocale(LC_TIME,"es_ES","spanish");
+  setlocale(LC_TIME,"es_Es");
   /* Para cada letra que lleve un % delante se refiere a un atributo del tipo date ejemplo
   %A -> Se refiere a un dia de la semana escrito completamente
   %H -> se refiere a la hora escrita en el formato de 00 a 23
