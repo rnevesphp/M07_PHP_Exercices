@@ -8,8 +8,8 @@ h1 {
    background: url(5566.jpg);
    background-size: cover /*90rem 60rem*/;
    margin-top: 1rem;
-   height: 100vh;
-   width: 100%;
+   height: 90vh;
+   width: 100vh;
    display: flex;
    flex-direction: column;
    justify-content: center;
@@ -18,7 +18,7 @@ h1 {
 
 .cristal input  { 
    margin-bottom: 5px;
-   border-radius: 5px;
+   border-radius: 4px;
    width: 10rem;
    height: 2rem;
    text-align: center;
@@ -27,11 +27,16 @@ h1 {
 
 .cristal select { 
    margin-bottom: 5px;
+   width: 5rem;
+   height: 2rem;
+   border: .5px solid #000;
+   border-radius: 4px;
+   text-align: center;
 }
 
 .cristal { 
-   width: 50%;
-   height: 50%;
+   width: 70rem;
+   height: 50rem;
    border-radius: 5px;
    text-align: center;
    color: #fff;
