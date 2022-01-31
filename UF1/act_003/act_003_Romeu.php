@@ -28,20 +28,17 @@
 
    // Ejercicio 3D - Factorial  // 
     echo("<h3>Factorial de un numero</h3> "); 
-    $numero = 4;  // Creamos una variable y le atribuimos un valor 
-    
+    $numero = 5;  // Creamos una variable y le atribuimos un valor 
     function CalFactorial($numero){ // Creamos una funcion que hará el calculo del factorial
       $total = 1 ; //creamos una variable total y le damos el valor de 1
       for($iCont = $numero; $iCont >= 1; $iCont--){
           // a la nueva variable iCont le atribuimos el valor del numero introducido 
           // para iCont siendo mayor que 1 pues el por cada vez que el bucle repita se le decrementará un numero
-          
           //Para cada iteración del bucle multiplcamos el valor de iCont por el total que devolveria iCont*1
           $total = $total * $iCont; 
-
           // Para cada iteración del bucle sacamos el valor del numero introducido decrementado
           echo("Numero decreciente: ".$iCont."<br>"); 
-        }
+      }
         return $total; //La función debe de devolver un total; 
     }
     // Imprimos el valor del factorial del numero introducido

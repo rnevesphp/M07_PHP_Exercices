@@ -59,10 +59,10 @@
             echo($numero1.' '.$operacion1.' '.$numero2.' = '.$resultado1.'<br>');
          }
 
-         // en esta parte del condicional realizamos la siguiente accion 
+         // en esta parte del condicional realizamos la siguiente acción 
          // en caso de que los campos 4 y 5 estén vacíos realizaremos tan solo las operaciones 1 y 2.  
       } else if (empty($numero4) and empty($numero5)) { 
-         // este condicional actua sobre la operación seleccionada en el formulario, segun que operacion fue elegida 
+         // este condicional actúa sobre la operación seleccionada en el formulario, según que operacion fue elegida 
          // entonces haremos una operacion u otra. 
          if($operacion1 == '+'){
             $resultado1 = $numero1 + $numero2 ; 
@@ -96,8 +96,8 @@
             echo($resultado1.' '.$operacion2.' '.$numero3.' = '.$resultado2.'<br>');
          }
 
-         // este condicional actua sobre el utlimo campo donde se introducen los valores, 
-         // en caso de que el ultimo campo esté vacio realizará las 3 operaciones de los 4 valores introducidos. 
+      // este condicional actua sobre el utlimo campo donde se introducen los valores, 
+      // en caso de que el ultimo campo esté vacio realizará las 3 operaciones de los 4 valores introducidos. 
       } else if (empty($numero5)) { 
          
          if($operacion1 == '+'){

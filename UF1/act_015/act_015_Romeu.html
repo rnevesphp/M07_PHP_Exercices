@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>ACT 15 - FORM</title>
+</head>
+
+<body>
+   <fieldset>
+      <legend>FORMULARIO DE INSCRIPCIÓN</legend>
+      <form action="act_015_Romeu.php" method="post">
+         <label for="entradaNombre">Nombre</label>
+         <input type="text" name="entradaNombre" id="entradaNombre">
+         <br><br>
+
+         <label for="entradaApellidos">Apellidos</label>
+         <input type="text" name="entradaApellidos" id="entradaApellidos">
+         <br><br>
+
+         <label for="fechaNacimiento">Fecha de nacimiento</label>
+         <input type="date" name="fechaNacimiento" id="fechaNacimiento">
+         <br><br>
+
+         <input type="radio" name="genero" id="generoMas" value="1">
+         <label for="generoMas">Hombre</label>
+         <input type="radio" name="genero" id="generoFem" value="2">
+         <label for="generoFem">Mujer</label>
+         <br><br>
+
+         <label>Ciclo Cursado</label>
+         <br>
+         <label for="cicloCursado1">CFGM</label>
+         <input type="radio" value="1" name="cicloCursado" id="cicloCursado1">
+         <label for="cicloCursado2">CFGS</label>
+         <input type="radio" value="2" name="cicloCursado" id="cicloCursado2">
+         <br><br>
+
+         <label for="anoCiclo1">1er Año</label>
+         <input type="radio" value="1" name="curso" id="anoCiclo1">
+         <label for="anoCiclo2">2o Año</label>
+         <input type="radio" value="2" name="curso" id="anoCiclo2">
+         <br><br>
+
+         <label for="asignPreferida">Asignatura Preferida</label>
+         <br>
+
+         <input type="radio" value="1" name="asignatura" id="1">
+         <label for="1">PHP</label>
+         <br>
+         <input type="radio" value="2" name="asignatura" id="2">
+         <label for="2">PYTHON</label>
+         <br>
+         <input type="radio" value="3" name="asignatura" id="3">
+         <label for="3">JAVASCRIPT</label>
+
+         <br><br>
+
+         <label for="correo">Correo Electrónico</label>
+         <input type="email" name="correo" id="correo">
+         <br><br>
+
+         <label for="tlfContato">Telefono: 123 456 789</label>
+         <input type="tel" pattern="[0-9]{3}[0-9]{3}[0-9]{3}" name="tlfContato" id="tlfContato">
+         <br><br>
+
+         <label>Actualmente Trabajando</label>
+         <br>
+         <label for="jobSi">Si</label>
+         <input type="radio" value="1" id="jobSi" name="job">
+         <label for="jobNo">No</label>
+         <input type="radio" value="2" id="jobNo" name="job">
+         <br><br>
+
+         <label for="pagWeb">Página Web</label>
+         <br>
+         <label for="pagSi">Si</label>
+         <input type="radio" value="1" name="pag" id="pagSi">
+         <label for="pagNo">No</label>
+         <input type="radio" value="2" name="pag" id="pagNo">
+         <br>
+         <input placeholder="Introducir Web" type="text" name="pagWeb" id="pagWeb">
+         <br><br>
+
+         <label for="work">Area de Interés</label>
+         <br>
+         <input type="radio" value="1" name="areadeInteres" id="fullStack">
+         <label for="fullStack">Full-Stack</label>
+         <br>
+         <input type="radio" value="2" name="areadeInteres" id="FrontEnd">
+         <label for="FrontEnd">Front-End</label>
+         <br>
+         <input type="radio" value="3" name="areadeInteres" id="BackEnd">
+         <label for="BackEnd">Back-End</label>
+         <br><br>
+
+         <label for="textPresentation">Carta de Presentación</label>
+         <br>
+         <textarea name="cartaDePresentacion" id="cartaDePresentacion" cols="30" rows="10"></textarea>
+         <br><br>
+         <button type="submit">Enviar Datos</button>
+         <button type="reset">Limpiar Datos</button>
+      </form>
+   </fieldset>
+</body>
+
+</html>

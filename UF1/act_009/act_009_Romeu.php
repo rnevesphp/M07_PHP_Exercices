@@ -18,5 +18,5 @@
    // y con el numero introducido llamamos la función
    $num = numPrimo($numIntroducido); 
    // y lo imprimmimos por pantalla
-   echo($num);
+   echo($num);   // tt tu visual studio hace cosas raras y el teclado es raro tambien que es esa raya de al lado
 ?> 
